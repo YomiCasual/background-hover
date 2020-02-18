@@ -51,11 +51,27 @@
   opacity: 0;
   transform: translateY(500px);
   padding: 3rem 2rem;
-  background-color: #FFBA08;
+  background-color: white;
   transition: 1s ease;
-  height: 350px
 }
 
+.column .content .box:nth-last-of-type(2)) {
+   background-color: green;
+}
+
+
+ div > div:nth-child(2) .content .box {
+     background-color: #2B9EB3
+}
+
+
+ div > div:nth-child(3) .content .box {
+     background-color: #FAA300; 
+}
+
+ div > div:nth-child(4) .content .box {
+     background-color: #D90368
+}
 .column:hover .content .box {
   cursor: pointer;
   position: absolute;
