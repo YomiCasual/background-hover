@@ -51,8 +51,9 @@
   opacity: 0;
   transform: translateY(500px);
   padding: 3rem 2rem;
-  background-color: white;
-  transition: 1s ease
+  background-color: #FFBA08;
+  transition: 1s ease;
+  height: 350px
 }
 
 .column:hover .content .box {
@@ -62,6 +63,10 @@
   opacity: 1;
   transform: translateY(140px);
   text-align: center;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.4),
+              4px 4px 20px rgba(0,0,0,0.4),
+              4px 4px 40px rgba(0,0,0,0.4),
+              4px 4px 80px rgba(0,0,0,0.4)
 }
 .box h2 {
   font-size: 2rem;
